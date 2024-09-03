@@ -1,3 +1,4 @@
+//restaurant class model
 class RestaurantModel {
   int id;
   String name;
@@ -9,6 +10,10 @@ class RestaurantModel {
     required this.cuisine,
   });
 
+/* factory constructor
+    Param - json data
+    returns a new restaurant object
+*/
   factory RestaurantModel.fromJson(Map<String, dynamic> json) {
     return RestaurantModel(
       id: json['id'],
