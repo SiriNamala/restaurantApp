@@ -1,16 +1,7 @@
 # restaurant_app
 
-A new Flutter project.
+Created a Flutter app that loads json data from a local file and displays the restaurant data in a list.
+![Screenshot 2024-09-02 at 21 58 17](https://github.com/user-attachments/assets/aa313152-4985-4e95-8d33-64e5459303c1)
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Search Bar - search on restaurant name 
+![Screenshot 2024-09-02 at 21 59 09](https://github.com/user-attachments/assets/9771035a-bce6-4114-a867-00b669571361)
