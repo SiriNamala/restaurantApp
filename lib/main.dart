@@ -45,12 +45,14 @@ class MyHomePage extends ConsumerWidget {
                   labelText: 'Input Restaurant Name',
                 ),
                 onChanged: (userInput) {
+                  //obtaining the state of the search bar provider
                   ref.read(searchBarProvider.notifier).state = userInput;
                 }),
           ),
           Expanded(
             child: data.when(
               data: (restaurantList) {
+                //filtering the restaurants based on user input
                 final restaurantList1 = restaurantList.where((restaurant) {
                   return restaurant.name
                       .toLowerCase()
